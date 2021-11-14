@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.Master {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin: 20px;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterBtn {
+  border-radius: 50%;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.decreaseBtn {
+  background-color: rgb(221, 71, 71);
+}
+
+.increaseBtn {
+  background-color: rgb(71, 221, 121);
+}
+
+.resetBtn {
+  background-color: #88a8ec;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+  font-size: 1em;
+  color: white;
 }
